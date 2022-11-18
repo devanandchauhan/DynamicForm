@@ -1,0 +1,89 @@
+{
+    "form_name": "Dynamic Form 1",
+    "form_fields": [
+        {
+            "key": "email",
+            "type": "form-email",
+            "required": true,
+            "templateOptions": {
+                "label": "Please enter your email",
+                "hideFieldUnderline": true,
+                "appearance": "standard"
+            }
+        },
+        {
+            "key": "text",
+            "type": "form-text",
+            "required": true,
+            "templateOptions": {
+                "label": "Please enter your name",
+                "hideFieldUnderline": true,
+                "appearance": "standard"
+            }
+        },
+        {
+            "key": "checkbox",
+            "type": "form-checkbox",
+            "required": true,
+            "templateOptions": {
+                "label": "Please select your prefered location",
+                "hideFieldUnderline": true,
+                "appearance": "standard",
+                "options": [
+                    {
+                        "label": "Pune",
+                        "value": "OPTION1"
+                    },
+                    {
+                        "label": "Mumbai",
+                        "value": "OPTION2"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "radio",
+            "type": "form-radio",
+            "required": true,
+            "templateOptions": {
+                "label": "Please select your gender",
+                "hideFieldUnderline": true,
+                "appearance": "standard",
+                "options": [
+                    {
+                        "label": "Male",
+                        "value": "OPTION1"
+                    },
+                    {
+                        "label": "Female",
+                        "value": "OPTION2"
+                    },
+                    {
+                        "label": "Other",
+                        "value": "OPTION3"
+                    }
+                ]
+            }
+        },
+        {
+            "key": "rating",
+            "type": "form-rating",
+            "required": false,
+            "templateOptions": {
+                "label": "Please rate your iOS skill",
+                "hideFieldUnderline": true,
+                "appearance": "standard"
+            }
+        },
+        {
+            "key": "signature",
+            "type": "form-signature",
+            "required": false,
+            "templateOptions": {
+                "label": "Please sign",
+                "hideFieldUnderline": true,
+                "appearance": "standard"
+            }
+        }
+    ]
+}

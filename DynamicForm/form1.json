@@ -1,0 +1,25 @@
+{
+  "form_name": "Dynamic Form 1",
+  "form_fields": [
+    {
+      "key": "checkbox",
+      "type": "form-checkbox",
+      "required": true,
+      "templateOptions": {
+        "label": "Please select your prefered location",
+        "hideFieldUnderline": true,
+        "appearance": "standard",
+        "options": [
+          {
+            "label": "Pune",
+            "value": "OPTION1"
+          },
+          {
+            "label": "Mumbai",
+            "value": "OPTION2"
+          }
+        ]
+      }
+    }
+  ]
+}
